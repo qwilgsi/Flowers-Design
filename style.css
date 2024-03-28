@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #FFDADA;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.categories, .about-us, .services, .catalog, .testimonials {
+    padding: 2rem;
+}
+
+.bouquet {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.bouquet img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #A9BFE4;
+    padding: 1rem;
+    text-align: center;
+}
+
+.hero-content {
+    flex: 1; 
+}
+
+.hero img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 2rem;
+}
+
+.categories h2, .about-us h2, .services h2, .catalog h2, .testimonials h2 {
+    background-color: #FFDADA;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}
